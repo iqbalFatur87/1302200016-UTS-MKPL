@@ -14,7 +14,7 @@ public class EmployeeInfo {
 	private String idNumber;
 	private String address;
     private Gender gender;
-    private Nationality nationality;
+    private static Nationality nationality;
 
     public EmployeeInfo(String employeeId, String firstName, String lastName, String idNumber, String address,
         Gender gender, Nationality nationality) {
@@ -25,5 +25,9 @@ public class EmployeeInfo {
         this.address = address;
         this.gender = gender;
         this.nationality = nationality;
+    }
+    
+    public static Nationality getNationality() {
+        return nationality;
     }
 }
