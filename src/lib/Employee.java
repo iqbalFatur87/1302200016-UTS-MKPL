@@ -21,11 +21,6 @@ public class Employee {
 		this.childInfo = childInfo;
 	}
 	
-	public void addChild(String childName, String childIdNumber) {
-		childNames.add(childName);
-		childIdNumbers.add(childIdNumber);
-	}
-	
 	public int getAnnualIncomeTax() {
 		
 		//Menghitung berapa lama pegawai bekerja dalam setahun ini, jika pegawai sudah bekerja dari tahun sebelumnya maka otomatis dianggap 12 bulan.
