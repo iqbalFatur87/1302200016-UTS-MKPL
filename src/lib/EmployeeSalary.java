@@ -5,8 +5,6 @@ import lib.EmployeeInfo.Nationality;
 public class EmployeeSalary {
     private int monthlySalary;
     private int otherMonthlyIncome;
-	
-
     private int annualDeductible;
 
     public EmployeeSalary(int monthlySalary, int otherMonthlyIncome, int annualDeductible) {
