@@ -5,7 +5,9 @@ import lib.EmployeeInfo.Nationality;
 public class EmployeeSalary {
     private int monthlySalary;
     private int otherMonthlyIncome;
-	private int annualDeductible;
+	
+
+    private int annualDeductible;
 
     public EmployeeSalary(int monthlySalary, int otherMonthlyIncome, int annualDeductible) {
         this.monthlySalary = monthlySalary;
@@ -33,4 +35,7 @@ public class EmployeeSalary {
         this.annualDeductible = annualDeductible;
     }
 
+    public void setAdditionalIncome(int otherMonthlyIncome) {
+        this.otherMonthlyIncome = otherMonthlyIncome;
+    }
 }
