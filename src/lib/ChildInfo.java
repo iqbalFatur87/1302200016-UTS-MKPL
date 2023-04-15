@@ -10,4 +10,9 @@ public class ChildInfo {
         this.childNames = childNames;
         this.childIdNumbers = childIdNumbers;
     }
+
+    public void addChild(String childName, String childIdNumber) {
+		childNames.add(childName);
+		childIdNumbers.add(childIdNumber);
+	}
 }
