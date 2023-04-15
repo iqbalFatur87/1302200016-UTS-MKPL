@@ -8,4 +8,9 @@ public class SpouseInfo {
         this.spouseName = spouseName;
         this.spouseIdNumber = spouseIdNumber;
     }
+    
+    public void setSpouse(String spouseName, String spouseIdNumber) {
+		this.spouseName = spouseName;
+		this.spouseIdNumber = spouseIdNumber;
+	}
 }
